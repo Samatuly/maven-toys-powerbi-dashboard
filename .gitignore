@@ -1,0 +1,17 @@
+# Data (download from Maven Analytics, see README)
+data/raw/*
+!data/raw/.gitkeep
+
+# Power BI temp / backup files
+*.pbix.bak
+~$*
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# OS / IDE
+.DS_Store
+desktop.ini
+.vscode/
